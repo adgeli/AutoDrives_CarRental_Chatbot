@@ -77,6 +77,8 @@ The lambda function operates as the business logic that allows Sali to respond t
 
 ### Bots
 
+![bot](images/Msgs/final_closing_msg.png)
+
 This is an exported zip file of the Amazon Lex chatbot that is required to deploy locally on the users personal AWS console. 
 
 ### Intents
@@ -84,6 +86,8 @@ This is an exported zip file of the Amazon Lex chatbot that is required to deplo
 This is an exported zip file containging the Amazon Lex chatbot intent that is required to deploy locally on the users personal AWS console.
 
 ### Slots
+
+![slots](images/Intents_and_Slots/Slot_Type_Progress.png)
 
 This is an exported zip file containging the Amazon Lex chatbot slots that are required to deploy locally on the users personal AWS console.
 
