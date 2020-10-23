@@ -31,7 +31,7 @@ Alligning with the project objective, the autonomous car rental service, AutoDri
 
 To meet the demand of *plausible futures*, the AutoDrives service provides fully autonomous vehciles and additional vehcile accessories to improve the user experience when travelling for any period of time. 
 
-** Future Direction**
+**Future Direction**
 
 Based on the scope of the project, there are future directions Sali, the car rental booking chatbot hopes to undertake. In addition to establishing a more robust user to bot conversation, Sali will proivde more information and resource access to users regaridng the organization. 
 
