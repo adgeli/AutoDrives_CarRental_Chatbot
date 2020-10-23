@@ -59,6 +59,8 @@ There are additional resources available through AWS to deploy chatbots. Referen
 
 If any issues arise when viewing the `AutoDrives Demo Video` or the `461 Bot Presentation` the user has the option to clone or donwload the repository to view all the files locally. 
 
+Users must remember, github cannot display files that exceed a certain size. **Please download or clone the repository for grading purposes.**
+
 ---
 
 ## Navigtating the Repository 
