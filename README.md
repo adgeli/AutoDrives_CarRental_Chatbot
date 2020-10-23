@@ -101,10 +101,13 @@ This directory contains demo videos that iterate the testing process of the chat
 
 ### Powerpoint Presentation 
 
+![presentation](images/presentation_screenshot.png)
+
 The repository contains the in-class presentation of the AutoDrives autonomous car rental booking service. The presentation is titled `461_Bot_Presentation`
 
-
 ### Final Video
+
+![video](images/video_screenshot.png)
 
 The repository contains the demo video for Sali an AWS Lex powered chatbot. The video is titled `AutoDrives Demo Video`
 
