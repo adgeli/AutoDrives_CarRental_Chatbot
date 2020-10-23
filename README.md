@@ -61,6 +61,13 @@ If any issues arise when viewing the `AutoDrives Demo Video` or the `461 Bot Pre
 
 Users must remember, github cannot display files that exceed a certain size. **Please download or clone the repository for grading purposes.**
 
+**Additional Notes & Considerations to Grader**
+
+To view some of the files within this repository **locally**; [readme](README.md), Design Reflection, and the [Lambda Function](lambda/lambda.py) **you will need** to use a thirdparty source code editor such as VS Code or access to Jupyter Lab. 
+
+* Installing VS Code, documentation can be found [here](https://code.visualstudio.com/download)
+* To set us VS Code, documentation can be found [here](https://code.visualstudio.com/docs/setup/setup-overview)
+
 ---
 
 ## Navigtating the Repository 
