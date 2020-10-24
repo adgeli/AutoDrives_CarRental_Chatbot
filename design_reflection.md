@@ -175,4 +175,4 @@ Once the chatbot has gone through a customer testing period to make sure that it
 
 ## References 
 
-References documentation can be found in [here](461_References.docx)
+References documentation can be found in [here](461_References.docx). To review the document select the `here` option, then `view raw`. The references document will be downloaded to the users local drive. 
