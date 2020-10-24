@@ -8,4 +8,33 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
 
 ---
 
-## The Design Process that Lead to Sali 
+# The Design Process that Lead to Sali 
+
+![sali](images/robot.jpg)
+
+## Objective
+
+**Insert project summary here**
+
+---
+
+## Document Overview 
+
+- Background
+    - The Problem 
+    - Research 
+    - Project Direction 
+
+- Prototyping & Validation 
+    - Utterances 
+    - Slots & Intents
+    - Buttons
+    - Code Development: Lambda 
+
+- Postmortem 
+    - Evaluation 
+    - Conclusion 
+    - Future Directions 
+
+---
+
