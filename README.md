@@ -114,7 +114,7 @@ The repository contains the in-class presentation of the AutoDrives autonomous c
 
 ### Final Video
 
-![video](images/video_screenshot.png)
+![video](images/video_gif.gif)
 
 The repository contains the demo video for Sali an AWS Lex powered chatbot. The video is titled `AutoDrives Demo Video`
 
