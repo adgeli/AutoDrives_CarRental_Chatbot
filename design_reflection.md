@@ -68,4 +68,66 @@ Thus, following the research above, created a chatbot that would help users book
 
 ---
 
+## Prototyping & Validation 
+
+**Process Flow:**
+
+![process_flow](images/process_flow.png)
+
+### Utterances 
+
+**Utterance Creation:**
+
+![round_1_utterance](images/Utterances/round1_sampleutterances.png)
+
+Utterances are the first step of the design process. Utterances are phrases, statements of words that the user will input in some sort of sequence. In the case of this chatbot, an example is if the user types “make a car reservation”. This utterance is very broad, however because Amazon LEX uses deep learning it is able to read and register what the user is asking. The more utterances used the better of a chance that amazon LEX will be able to recognize what the user is asking. In terms of what worked, the below images are the utterances we decided to go with. We decided on these through trial and error of what the chatbot responded to, making sure they weren’t too specific that the user wouldn’t type it, but also not too general for amazon to not be able to recognize the request. 
+
+**Utterances in Stage 3 of the Design Process:**
+
+![round_3_utterances](images/Utterances/round3_sampleutterances.png)
+
+### Slots & Intents 
+
+ Intent slots are essentially the action the user wants to do. This is the question that amazon LEX will ask the user. The intent is an overview of the question at a high level. 
+
+ **Intent being asked: What kind of vehicle would you like to rent?**
+
+ ![edit_slot](images/Intents_and_Slots/car_intent_slot_type_1.png)
+ 
+ These intents are important because it is how the bot will respond to inputs from the user and make sure that the questions are flowing in conversation for the user. At this stage it was really about figuring out the conversation flow and making sure the questions were clear to the user, but also that if the user didn’t input the correct answer or follow previous steps that the chatbot was able to recover. 
+
+ **Slots & Intents Editing Process**
+
+ ![edit_slot](images/Intents_and_Slots/editing_slot_types_1.png)
+ 
+ For example, a part of booking an autonomous vehicle is the user has to be over the age of 21 (driver age- slots or intents). What happens if they’re under the age of 21? The chatbot obviously has to recognize this because they are too young to operate a vehicle. Recovering simply means that the chatbot recognizes the birthday is not valid and asks the user to try again. In terms of what worked at this stage it was again just trial and error of working with the conversation flow and chat the chatbot responds to. When there was an error at this stage, we used a code hook to offset said error. 
+
+**Slots & Intents Progress**
+
+![progress](images/Intents_and_Slots/Slot_Type_Progress.png)
+
+### Buttons
+
+**Creating Buttons**
+
+<img src="images/Buttons/Creating_Buttons_1.png" width="425"/> <img src="images/Buttons/Recreating_Buttons.png" width="425"/> 
+
+The buttons part of the design process consisted of selecting multiple choice questions for the user pertaining to the vehicle rental. There was no right or wrong in terms of buttons, it was more so about determining what information we wanted the chatbot to request and what options we wanted to make available to the user. The buttons options are shown below. 
+
+### Code Development: Lambda Function 
+
+**Initializing Environments & Variables:**
+
+<img src="images/code_development/initializing_code.png" width="425"/> <img src="images/code_development/defining_validation_functions.png" width="425"/> 
+
+
+The most important part of the design process was coding the lambda function. A lambda function is the business logic or context behind the amazon lex chatbot. A User makes a request, and that request could be something like- selecting a vehicle type. Amazon lex then reads the request and sends it over to the lambda function. 
+
+**Validating Intents & the Business Logic**
+
+<img src="images/code_development/defining_intents.png" width="425"/> <img src="images/code_development/lambda_business_logic.png" width="425"/> 
+
+In this function there is a block of code telling the chatbot what to do based on the value inputted. Lambda function is the development process- not just about creating a GUI (user interface) it’s about creating a code that gives business context to the chatbot (lambda). We decided on the results through user testing. Essentially, we kept testing to see how the user responds as well as how the chatbot responds to the user request inputs. 
+
+---
 
