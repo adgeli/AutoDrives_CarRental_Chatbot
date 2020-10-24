@@ -29,7 +29,7 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
     - [Utterances](#Utterances)
     - [Slots & Intents](#Slots-&-Intents)
     - [Buttons](#Buttons)
-    - [Code Development: Lambda](#Code-Development:-Lambda-Function) 
+    - [Code Development: Lambda Function](#Code-Development:-Lambda-Function) 
 
 - [Postmortem](#Postmortem)
     - [Evaluation](#Evaluation) 
