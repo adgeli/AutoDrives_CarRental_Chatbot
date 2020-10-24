@@ -10,11 +10,11 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
 
 # The Design Process that Lead to Sali 
 
-![sali](images/future_driving.jpg)
+<img src="images/future_driving.jpg" width="850"/>
 
 ## Objective
 
-**Insert project summary here**
+
 
 ---
 
@@ -41,7 +41,7 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
 
 ## Background
 
-<img src="images/selfdriving.png" width="750"/>
+<img src="images/selfdriving.png" width="850"/>
 
 ### The Problem 
 
@@ -140,7 +140,7 @@ In this function there is a block of code telling the chatbot what to do based o
 
 ## Postmortem 
 
-<img src="images/driving.jpg" width="700"/> 
+<img src="images/driving.jpg" width="850"/> 
 
 ### Evaluation 
 
@@ -167,7 +167,7 @@ In conclusion, as self-driving vehicles continue to become more innovative, the 
 
 ### Future Directions 
 
-<img src="images/autonomous_car.jpg" width="750"/>
+<img src="images/autonomous_car.jpg" width="850"/>
 
 Once the chatbot has gone through a customer testing period to make sure that it adhered to all the customer’s needs and is effective in communicating and booking the services on behalf of the customer, we would be looking to expand to all mobile platforms. Currently the chatbot is only available on the AutoDrives.ca website however to make our services more accessible and convenient we would be looking to develop it into an app. Our end goal would be to offer our service app on both apple and android platforms, as well as on the website so that our services are accessible to everyone whether that be on their mobile or desktop computers. By making our service so accessible we hope that it gives us a competitive advantage over competitors in the autonomous driving industry.
 
