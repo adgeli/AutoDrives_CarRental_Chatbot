@@ -24,6 +24,7 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
     - [The Problem](#The-Problem)
     - [Research](#Research)
     - [Project Direction](#Project-Direction)
+    - [Persona](#Persona)
 
 - [Prototyping & Validation](#Prototyping-and-Validation)
     - [Utterances](#Utterances)
@@ -67,6 +68,10 @@ Thus, following the research above, created a chatbot that would help users book
 - Accomplish the entire booking process for users seeking to book an autonomous vehicle.
 - Design a flow of questions that was conversational and simple to follow.
 - Create an excellent, personalized customer experience leaving no questions unanswered.
+
+### Persona
+
+![persona](images/persona.png)
 
 ---
 
@@ -168,3 +173,4 @@ Once the chatbot has gone through a customer testing period to make sure that it
 
 ---
 
+## References 
