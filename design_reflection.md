@@ -25,9 +25,9 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
     - [Research](#Research)
     - [Project Direction](#Project-Direction)
 
-- [Prototyping & Validation](#Prototyping-&-Validation)
+- [Prototyping & Validation](#Prototyping-and-Validation)
     - [Utterances](#Utterances)
-    - [Slots & Intents](#Slots-&-Intents)
+    - [Slots & Intents](#Slots-and-Intents)
     - [Buttons](#Buttons)
     - [Code Development: Lambda Function](#Code-Development-of-the-Lambda-Function)
 
@@ -70,7 +70,7 @@ Thus, following the research above, created a chatbot that would help users book
 
 ---
 
-## Prototyping & Validation 
+## Prototyping and Validation 
 
 **Process Flow:**
 
@@ -88,7 +88,7 @@ Utterances are the first step of the design process. Utterances are phrases, sta
 
 ![round_3_utterances](images/Utterances/round3_sampleutterances.png)
 
-### Slots & Intents 
+### Slots and Intents 
 
  Intent slots are essentially the action the user wants to do. This is the question that amazon LEX will ask the user. The intent is an overview of the question at a high level. 
 
