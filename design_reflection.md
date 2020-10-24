@@ -14,7 +14,7 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
 
 ## Objective
 
-
+Sali is a booking chatbot powered by Amazon Web Services Lex and Lambda tools assisting consumers in one of the plausible futures improve their travel experience. AutoDrives is an autonomous car rental service operating in a speculative future approximately twenty to thirty years from the present. In this plausible future the percentage of consumers owning personal vehicles has decreased significantly due to the rise in demand of self-driving cars. The trend in popularity of autonomous vehicles provides consumers with improved time efficiency, safety options, and better user experiences throughout their travel period. Through Sali, AutoDrives’ booking chatbot, consumers have the option to interact with the platform to book their autonomous vehicle for their trip. Sali provides users with the option to book Evie, the AI powering the self-driving cars’ operating system for a few hours, days, or even weeks. Additionally, the user can customize the features of their autonomous vehicle with options like 8G connectivity (conceptual idea based on the current launch of 5G network services), work space, virtual entertainment systems, and VR gaming. Through this vision, the design process is constructed to satisfy the objectives of the assignment and a speculative future.
 
 ---
 
