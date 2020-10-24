@@ -10,7 +10,7 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
 
 # The Design Process that Lead to Sali 
 
-![sali](images/robot.jpg)
+![sali](images/future_driving.jpg)
 
 ## Objective
 
@@ -20,21 +20,21 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
 
 ## Document Overview 
 
-- Background
-    - The Problem 
-    - Research 
-    - Project Direction 
+- [Background](#Background)
+    - [The Problem](#The-Problem)
+    - [Research](#Research)
+    - [Project Direction](#Project-Direction)
 
-- Prototyping & Validation 
-    - Utterances 
-    - Slots & Intents
-    - Buttons
-    - Code Development: Lambda 
+- [Prototyping & Validation](#Prototyping-&-Validation)
+    - [Utterances](#Utterances)
+    - [Slots & Intents](#Slots-&-Intents)
+    - [Buttons](#Buttons)
+    - [Code Development: Lambda](#Code-Development:-Lambda-Function) 
 
-- Postmortem 
-    - Evaluation 
-    - Conclusion 
-    - Future Directions 
+- [Postmortem](#Postmortem)
+    - [Evaluation](#Evaluation) 
+    - [Conclusion](#Conclusion) 
+    - [Future Directions](#Future-Directions) 
 
 ---
 
@@ -165,3 +165,6 @@ In conclusion, as self-driving vehicles continue to become more innovative, the 
 <img src="images/autonomous_car.jpg" width="750"/>
 
 Once the chatbot has gone through a customer testing period to make sure that it adhered to all the customer’s needs and is effective in communicating and booking the services on behalf of the customer, we would be looking to expand to all mobile platforms. Currently the chatbot is only available on the AutoDrives.ca website however to make our services more accessible and convenient we would be looking to develop it into an app. Our end goal would be to offer our service app on both apple and android platforms, as well as on the website so that our services are accessible to everyone whether that be on their mobile or desktop computers. By making our service so accessible we hope that it gives us a competitive advantage over competitors in the autonomous driving industry.
+
+---
+
