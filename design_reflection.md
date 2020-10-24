@@ -29,6 +29,7 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
     - [Utterances](#Utterances)
     - [Slots & Intents](#Slots-&-Intents)
     - [Buttons](#Buttons)
+    - [Code Development: Lambda Function](#Code-Development-of-the-Lambda-Function)
 
 - [Postmortem](#Postmortem)
     - [Evaluation](#Evaluation) 
@@ -115,7 +116,7 @@ Utterances are the first step of the design process. Utterances are phrases, sta
 
 The buttons part of the design process consisted of selecting multiple choice questions for the user pertaining to the vehicle rental. There was no right or wrong in terms of buttons, it was more so about determining what information we wanted the chatbot to request and what options we wanted to make available to the user. The buttons options are shown below. 
 
-### Code Development: Lambda Function 
+### Code Development of the Lambda Function 
 
 **Initializing Environments & Variables:**
 
