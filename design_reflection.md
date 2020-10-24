@@ -40,6 +40,8 @@ By: Alexandra Dumitras-Geli, Jennifer Palfi, Melanie Zaky, & Nicole Stafferie
 
 ## Background
 
+<img src="images/selfdriving.png" width="750"/>
+
 ### The Problem 
 
 The world of driving is changing significantly. Manually operating vehicles is a concept of the past as we move into an era of autonomous, self-driving cars. Thus, just because the method of driving is changing, doesn’t mean people will have less destinations, or places to be. In fact, it might even increase. It is then worth questioning, if people aren’t driving their cars themselves anymore, would they need to own a car? Could there be an autonomous car rental system to cater to this?
@@ -131,3 +133,35 @@ In this function there is a block of code telling the chatbot what to do based o
 
 ---
 
+## Postmortem 
+
+<img src="images/conclusion_img.jpg" width="700"/> 
+
+### Evaluation 
+
+After a long process of prototyping and evaluating the best format and sequence of questions to be asked, the final product of the chatbot was developed. The initial chat prototype created was increasingly dry in content. The questions were not straight forward and lacked detail. This was an issue as it had the potential to confuse users and make the booking process a tedious one. Therefore, to improve the user’s experience, the questions had to be formulated in a more proficient manner. Within the final prototype, we decided that to be as efficient as possible, we had to first outline the booking process and then develop the questions that would fulfill that. We decided to start off the chatbot booking process with a greeting to make the user experience feel more personal and authentic. 
+
+<img src="images/FINAL_CHAT/FINAL_CHAT_1.png" width="425"/> <img src="images/FINAL_CHAT/FINAL_CHAT_2.png" width="425"/> 
+
+This would mimic the tone of a customer service representative. From there, we then wanted the chatbot to ask some questions regarding the users’ identity for verification purposes, such as their birth date. If the user is of age, the chatbot is to then ask the user questions regarding the specifications of their trip, including the duration, number of passengers, car preference and desired arrival time. The chatbot comes to an end by asking the user if they would like to finalize the booking process and if so, provide them with all the necessary information regarding the details of their booking. Knowing the content, we wanted to include for the booking process made it easier to formulate the questions in a strategic and efficient manner. 
+
+<img src="images/FINAL_CHAT/FINAL_CHAT_3.png" width="425"/> <img src="images/FINAL_CHAT/FINAL_CHAT_4.png" width="425"/> 
+
+From there, we developed a series of twelve questions. To avoid confusion in answers, we made sure to include options in the questions for users to choose from when possible, or questions that would result in a specific answer that could be easily interpreted by the chatbot. In the case where an answer could not be interpreted, the user receives a message stating that the bot was unable to understand the request and to try to better formulate the answer. With that being said, we were aware that users could potentially use different utterances to answer the questions. 
+
+<img src="images/FINAL_CHAT/FINAL_CHAT_5.png" width="300"/> <img src="images/FINAL_CHAT/FINAL_CHAT_6.png" width="300"/> <img src="images/FINAL_CHAT/FINAL_CHAT_7.png" width="300"/> 
+
+Therefore, as we progressed in this final stage of prototyping, we added different variations of utterances to ensure the deep learning algorithm that Sali uses would be able to make more connections to different key phrases a user inputs. For instance, in the first prototype, using utterances that were too similar to each other would trigger an error. But, upon expanding the potential utterances that could be used, even if a user were to input “make a car reservation” instead of “make a vehicle reservation”, Sali is still able to recognize what the user is attempting to input. Furthermore, the use of lambda makes it possible for Sali to have a robust conversation with the user. Lambda essentially delegates a JSON response to Sali with the expected user response (purpose: provide Sali with the logic by having lambda provide what the next steps are for Sali). With those being our prominent strengths, there is also an evident weakness. Specifically, although we expanded the utterances that could potentially be used by the users, some phrasing is still unrecognizable by the chatbot. The chance of this happening could be decreased by adding even more utterance variations; which is possible with more time. An additional feature that could have also been implemented, having had more time and greater skills, is the ability to have users send a picture of their identification in order for Sali to evaluate the validity of their identity and age. 
+
+### Conclusion 
+
+<img src="images/FINAL_CHAT/FINAL_CHAT_8.png" width="425"/> <img src="images/FINAL_CHAT/FINAL_CHAT_9.png" width="425"/> 
+
+In conclusion, as self-driving vehicles continue to become more innovative, the demand for them will also increase. Through extensive research on the uprise of autonomous cars, we decided that developing an autonomous vehicle service can provide consumers with convenience for their everyday initiatives. Unlike uber, this autonomous vehicle service gives users freedom in accessibility throughout the whole duration of their trip. This service is especially convenient as it saves users from the hassle of driving and parking in busy areas in and around the GTA. To make this a simple process, we wanted to develop a chatbot that was straightforward and not time consuming. Therefore, the chatbot went through several testing periods to make sure it focused on customers’ needs and was effective in communication. We developed questions to identify users’ identity and trip details. We made sure to make these questions as simple as possible, without the need of variation in answers. In terms of the technical aspects, we incorporated utterances, intent and slots, buttons and the lambda functionality. These are all factors which make the user experience more proficient.
+
+
+### Future Directions 
+
+<img src="images/autonomous_car.jpg" width="750"/>
+
+Once the chatbot has gone through a customer testing period to make sure that it adhered to all the customer’s needs and is effective in communicating and booking the services on behalf of the customer, we would be looking to expand to all mobile platforms. Currently the chatbot is only available on the AutoDrives.ca website however to make our services more accessible and convenient we would be looking to develop it into an app. Our end goal would be to offer our service app on both apple and android platforms, as well as on the website so that our services are accessible to everyone whether that be on their mobile or desktop computers. By making our service so accessible we hope that it gives us a competitive advantage over competitors in the autonomous driving industry.
